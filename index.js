@@ -10,7 +10,7 @@ botoes.forEach(button => {
         const value = button.innerText;
 
         // Limpa o display se o botão " " for pressionado
-        if (value === ' ') {
+        if (value === '--') {
             display.innerText = '0';
         } 
         // Calcula o valor se o botão "=" for pressionado
